@@ -20,7 +20,7 @@ optimizer:
     pct_start: 0.1
 
 trainer:
-    batch_size: 30
+    batch_size: 32
     print_every: 200
     valid_every: 4000
     iters: 100000
@@ -30,7 +30,7 @@ trainer:
     log: ./train.log
     # null to disable compuate accuracy, or change to number of sample to enable validiation while training
     metrics: null
-
+    epoch: null
 dataset:    
     # name of your dataset
     name: data
